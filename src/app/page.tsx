@@ -169,7 +169,7 @@ export default function Home() {
               {[
                 { code: "US", name: "United\nStates" },
                 { code: "CA", name: "Canada" },
-                { code: "GB", name: "United\nKingdom" },
+                { code: "UK", name: "United\nKingdom" },
                 { code: "AU", name: "Australia" },
               ].map((country) => (
                 <div key={country.code} className="bg-white/70 backdrop-blur-sm rounded-[1.5rem] p-5 flex items-center justify-center gap-4 py-6">
